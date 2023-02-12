@@ -64,5 +64,3 @@ insert into Employee_Department Values (6,'Hardware',9410369855,'US')
 select employee_payroll.ID, Name, Salary, StartDate, Gender, Department, Phone, Address
 from employee_payroll
 left join Employee_Department on employee_payroll.ID = Employee_Department.ID
-
-
