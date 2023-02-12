@@ -44,4 +44,3 @@ where Gender = 'F' GROUP BY Gender;
 
 select COUNT(Salary) FROM employee_payroll
 where Gender = 'F' GROUP BY Gender;
-
